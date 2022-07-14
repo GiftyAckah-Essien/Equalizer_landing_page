@@ -8,7 +8,7 @@
  
 /*universal styles*/
 html{
-    font-size: 1rem;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
@@ -16,7 +16,12 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     background-color: var(--white);
-    color: var(--black); 
+    color: var(--black);
+    background-image: url(../assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -34,14 +39,20 @@ h2 {
 
 p {
     font-size: 1.25rem;
-    font-weight: 400;
     line-height: 1.7;
-
 }
 
 /*header style*/
 
 
+.bg-pattern-1{
+position: absolute;
+width: 312px;
+height: 468px;
+right: 0;
+top: -35px;
+}
+    
 /*main content style*/
 
 
