@@ -22,6 +22,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
+    padding-left: 10%;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h1 {
     line-height: 1;
     letter-spacing: -1px;
     font-weight: 700;
+    width: 75%;
 }
 
 h2 {
@@ -43,14 +46,21 @@ p {
 }
 
 /*header style*/
+header{
 
+}
+
+.header-logo, .footer-logo{
+    height: 2rem;
+}
 
 .bg-pattern-1{
-position: absolute;
-width: 312px;
-height: 468px;
-right: 0;
-top: -35px;
+    display: block;
+    position: absolute;
+    max-height: 468px;
+    right: 0;
+    top: -35px;
+    width: 15%;
 }
     
 /*main content style*/
