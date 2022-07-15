@@ -134,7 +134,7 @@ main, footer{
 button{
     width: 100%;
     border-radius: 0.5rem;
-    border-color:none;
+    border:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,21 +155,27 @@ button{
     color: var(--black);
     font-weight: 700;
     font-size: large;}
-
+    
 .button-icon{
     margin-right: 2%;
+}
+
+.apple-button:hover{
+    background-color: var(--cyan);
+}
+
+.android-button:hover{
+    background-color: var(--beige);
 }
 
 /*footer styles*/
 footer{
     margin-top: 25%;
-    display: flex;
-    
+    display: flex;   
 }
  
 .footer-content{
     display:flex;
-    
 }
 
 .footer-logo{
@@ -186,7 +192,15 @@ footer{
     position: absolute;
     right: 15%;
 }
+
 .icon{
-    
     margin:0 1rem;
+}
+
+.icon {
+    transition: all 0.5s ease-in;
+}
+
+.icon :hover{
+    fill: var(--orange);
 }
