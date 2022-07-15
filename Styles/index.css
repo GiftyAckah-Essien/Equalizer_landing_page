@@ -99,7 +99,36 @@ main{
     top: 0%;
     right: 42%;}
 
+.card{
+    position: absolute;
+    background-color: var(--orange);
+    border-radius: 1rem;
+    right: 10%;
+    bottom: 15%;
+    max-width: 40%;
+    color: var(--white);
+    padding: 2rem;
+}
+
+.card h1{
     
+}
+
+.card p {
+
+}
+
+.price{
+
+}
+
+.price span{
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+
+
 /*footer styles*/
 footer{
     margin-top: 5%;
