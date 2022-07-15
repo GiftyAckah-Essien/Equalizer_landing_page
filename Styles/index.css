@@ -21,7 +21,7 @@ body{
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     width: auto;
     padding-left: 10%;
 }
@@ -70,40 +70,31 @@ padding-top: 5%;
     margin-bottom: 30%;
 }
 
-main{
-    padding-right: 10%;
+/*footer styles*/
+footer{
+    margin-top: 5%;
+    display: flex;
+    
+}
+ 
+.footer-content{
+    display:flex;
+    
 }
 
-
-.content-images{
-    background-color: var(--black);
-    position: relative;
-    border-radius: 12px;
-    z-index: -10;
-    height: 600px;
+.footer-logo{
+ 
 }
 
-.illustration-app{
-    max-height: 642px;
-    position: absolute;
-    left: 25%;
-    bottom: 20%;
-    transform: translateX(-50%);
-    z-index: 5;
+.footer-content p{
+    max-width: 40%;
+    margin: 0 auto;
 }
 
-.bg-pattern-2{
-    transform: translateX(130%);
+.icons{
+    
 }
-
-.card{
-    background-color: var(--orange);
-  }
-
-
-.price{
-
+.icon{
+    
+    margin:0 1rem;
 }
-
-button
-/*footer style*/
