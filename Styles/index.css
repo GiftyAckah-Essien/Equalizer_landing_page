@@ -62,10 +62,6 @@ padding-top: 5%;
 }
     
 /*main content style*/
-main{
-
-}
-
 main, footer{
     padding-right: 10%;
 }
@@ -184,7 +180,6 @@ footer{
 .icons{
     position: absolute;
     right: 10%;
-    padding-top: 1.5rem;
 }
 
 .icon{
@@ -214,31 +209,18 @@ h2 {
 }
 
 /*header style*/
-header{
-padding-top: 5%;
-}
-
 .bg-pattern-1{
     max-height: 400px;
     right: -34px;
 }
     
 /*main content style*/
-main{
-
-}
-
 main, footer{
     padding-right: 2rem;
 }
 
 .description{
     margin-top: 0;
-    margin-bottom: 40%;
-}
-
-.content-images{
-    
 }
 
 .illustration-app{
@@ -246,28 +228,14 @@ main, footer{
 }
 
 .bg-pattern-2 {
-    right: 35%;}
-
-.card{
-    position: absolute;
-    background-color: var(--orange);
-    border-radius: 1rem;
-    right: 7%;
-    bottom: -30%;
-    max-width: 35%;
-    color: var(--white);
-    padding: 1rem 3rem 3rem;
+    transform: translateX(-45%);
 }
 
-.card h1{
-    
+.card{
+    max-width: 50%;
 }
 
 /*footer styles*/
-footer{
-
-}
- 
 .footer-content{
     flex-direction: column;
 }
@@ -306,9 +274,8 @@ p {
 }
 
 /*header style*/
-
-header, footer{
-    padding: 0 1rem;   
+header{
+    padding: 5% 1rem 0 1rem;
 }
 
 .bg-pattern-1{
